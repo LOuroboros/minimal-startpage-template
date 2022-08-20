@@ -6,7 +6,7 @@ const clockInterval = 100;
 /**
  * Search engine query url
  */
-const searchEngineUrl = 'https://duckduckgo.com/?q=';
+const searchEngineUrl = 'https://google.com/search?q=';
 
 const tabKeyCode = 9;
 const enterKeyCode = 13;
