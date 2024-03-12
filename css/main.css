@@ -65,6 +65,8 @@ main {
 }
 
 .link-list {
+    max-height: 400px; /* Set a fixed height to enable scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
     padding: 0;
 }
 
@@ -82,6 +84,7 @@ main {
 
 .link-list-item:hover {
     background-color: #888;
+    transform: scale(0.90); /* Reduce the size of the hover bar to 90% its size so it won't look weird with the scrolling bars of .link-list */
 }
 
 .link {
