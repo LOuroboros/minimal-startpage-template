@@ -119,6 +119,10 @@ main {
     color: #FFD700;
 }
 
+.silver {
+    color: #C0C0C0;
+}
+
 /* IDs */
 #clock {
     font-family: Roboto;
